@@ -4,7 +4,7 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
 **Please cite the following papers:**
 
     Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O’Donnell, L.J., 2018. 
-    A data­-driven groupwise fiber clustering atlas for consistent white matter parcellation and anatomical tract identification of subjects across the lifespan, 
+    A data-driven groupwise fiber clustering atlas for consistent white matter parcellation and anatomical tract identification of subjects across the lifespan, 
     in: Annual Meeting of the International Society for Magnetic Resonance in Medicine (ISMRM).
 
 **For projects using Slicer please also include this text (or similar):**
@@ -17,13 +17,14 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
 
       git clone git@github.com:SlicerDMRI/ORG-Atlases.git
 
-## 2. Download a pre-provided atals using the provided script ''wm_download_anatomically_curated_atlas.py'', as follows:
+## 2. Download a pre-provided atlas using the provided script ''wm_download_anatomically_curated_atlas.py'', as follows:
 
-      
       cd ORG-Atlases
       python wm_download_anatomically_curated_atlas.py -atlas ORG-800FC-100HCP atlas_output_folder
 
-Note that Python 2.7.X needs to be installed before running this scirpt.
+Two atlases are available to be downloaded (-atlas), including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The second one is an anatomically curated atlas including 800 fiber clusters, and the second one is an uncurated atlas including 2000 fiber clusters.
+
+Note that Python 2.7.X needs to be installed before running this script.
 
 ## 3. Visualize the fiber clusters and the annotated anatomical fiber tracts. 
 
