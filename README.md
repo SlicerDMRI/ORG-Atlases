@@ -3,9 +3,17 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
 
 **Please cite the following papers:**
 
-    Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O’Donnell, L.J., 2018. 
+    Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O'Donnell, LJ. 
     A data-driven groupwise fiber clustering atlas for consistent white matter parcellation and anatomical tract identification of subjects across the lifespan, 
-    in: Annual Meeting of the International Society for Magnetic Resonance in Medicine (ISMRM).
+    in: Annual Meeting of the International Society for Magnetic Resonance in Medicine (ISMRM), 2018.
+    
+    O'Donnell LJ, Wells III WM, Golby AJ, Westin CF. 
+    Unbiased groupwise registration of white matter tractography, 
+    in: International Conference on Medical Image Computing and Computer-Assisted Intervention 2012 Oct 1 (pp. 123-130). Springer Berlin Heidelberg.
+    
+    O'Donnell, LJ., and Westin, CF. 
+    Automatic tractography segmentation using a high-dimensional white matter atlas. 
+    Medical Imaging, IEEE Transactions on 26.11 (2007): 1562-1575.
 
 **For projects using Slicer please also include this text (or similar):**
 
@@ -29,5 +37,5 @@ Note that Python 2.7.X needs to be installed before running this script.
 ## 3. Visualize the fiber clusters and the annotated anatomical fiber tracts. 
 
 * Load output clustered_tracts.mrml file into Slicer. This will load all clusters into the scene and display a percentage of the fibers in each cluster.
-* To view 100% of the fibers in all clusters (can be slow depending on the number of fibers clustered), load clustered_tracts_display_100_percent.mrml into Slicer.
+* To view 100% of the fibers in all clusters (can be slow depending on the number of fibers clustered), load clustered_tracts_display_100_percent.mrml into Slicer. In this way, fibers from all 100 subjects are visualized in each cluster. Note that each cluster shows a common connection in the population and its variability across the 100 subjects.
 * If downloading a pre-provided anatomically curated atlas, a mrml file that defines which clusters belonging to a certain anatomical tract (e.g. T_AF.mrml) is provided. Loading the mrml file into Slicer will visualize all clusters belonging to the anatomical tract.
