@@ -7,7 +7,7 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
     A data-driven groupwise fiber clustering atlas for consistent white matter parcellation and anatomical tract identification of subjects across the lifespan, 
     in: Annual Meeting of the International Society for Magnetic Resonance in Medicine (ISMRM), 2018.
     
-    O'Donnell LJ., Wells III WM., Golby AJ., Westin CF. 
+    O'Donnell LJ., Wells III WM., Golby AJ., Westin CF. 
     Unbiased groupwise registration of white matter tractography, 
     in: International Conference on Medical Image Computing and Computer-Assisted Intervention 2012 Oct 1 (pp. 123-130). Springer Berlin Heidelberg.
     
