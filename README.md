@@ -1,13 +1,13 @@
 # org-atlases
 O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
 
-**Please cite the following papers:**
+**Please cite the following papers for using the atlases:**
 
     Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O'Donnell, LJ. 
     A data-driven groupwise fiber clustering atlas for consistent white matter parcellation and anatomical tract identification of subjects across the lifespan, 
     in: Annual Meeting of the International Society for Magnetic Resonance in Medicine (ISMRM), 2018.
     
-    O'Donnell LJ, Wells III WM, Golby AJ, Westin CF. 
+    O'Donnell LJ., Wells III WM., Golby AJ., Westin CF. 
     Unbiased groupwise registration of white matter tractography, 
     in: International Conference on Medical Image Computing and Computer-Assisted Intervention 2012 Oct 1 (pp. 123-130). Springer Berlin Heidelberg.
     
@@ -15,10 +15,15 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
     Automatic tractography segmentation using a high-dimensional white matter atlas. 
     Medical Imaging, IEEE Transactions on 26.11 (2007): 1562-1575.
 
-**For projects using Slicer please also include this text (or similar):**
+**For projects using Slicer and SlicerDMRI please also include the following text (or similar) and citations:**
 
-    "We performed tractography visualization with anatomical hierarchies in 3D Slicer (http://www.slicer.org)
-    via the SlicerDMRI project (https://github.com/SlicerDMRI), funded by NIH U01 CA199459."
+* How to cite the [Slicer platform](http://wiki.slicer.org/slicerWiki/index.php/CitingSlicer)
+* An example of how to cite SlicerDMRI (modify the first part of the sentence according to your use case):
+
+    "We performed diffusion MRI tractography and/or analysis and/or visualization in 3D Slicer (www.slicer.org) via the SlicerDMRI project (dmri.slicer.org) (Norton et al. 2017)."
+    
+    - [Isaiah Norton, Walid Ibn Essayed, Fan Zhang, Sonia Pujol, Alex Yarmarkovich, Alexandra J. Golby, Gordon Kindlmann, Demian Wassermann, Raul San Jose Estepar, Yogesh Rathi, Steve Pieper, Ron Kikinis, Hans J. Johnson, Carl-Fredrik Westin and Lauren J. O'Donnell. SlicerDMRI: Open Source Diffusion MRI Software for Brain Cancer Research. Cancer Research 77(21), e101-e103, 2017.](http://cancerres.aacrjournals.org/content/77/21/e101)
+
 
 # Installation
 ## 1. Download ORG-Atlases from github. 
