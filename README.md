@@ -4,8 +4,8 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
 **Please cite the following papers for using the atlases:**
 
     Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O'Donnell, LJ. 
-    A data-driven groupwise fiber clustering atlas for consistent white matter parcellation and anatomical tract identification of subjects across the lifespan, 
-    in: Annual Meeting of the International Society for Magnetic Resonance in Medicine (ISMRM), 2018.
+    An anatomically curated fiber clustering white matter atlas for consistent white matter tract parcellation across the lifespan, 
+    NeuroImage, 2018.
     
     O'Donnell LJ., Wells III WM., Golby AJ., Westin CF. 
     Unbiased groupwise registration of white matter tractography, 
