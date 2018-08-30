@@ -35,9 +35,62 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
       cd ORG-Atlases
       python wm_download_anatomically_curated_atlas.py -atlas ORG-800FC-100HCP atlas_output_folder
 
-Two atlases are available to be downloaded (-atlas), including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The second one is an anatomically curated atlas including 800 fiber clusters, and the second one is an uncurated atlas including 2000 fiber clusters.
-
 Note that Python 2.7.X needs to be installed before running this script.
+
+Two atlases are available to be downloaded (-atlas), including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
+
+Anatomical tracts annotated in the ORG-800FC-100HCP atlas. Except for the 7 corpus callosum (CC) tracts and the middle cerebellar peduncle (MCP) tract that cross the hemispheres (C), others are hemispheric (LR). Overall, there are 58 deep white matter fiber tracts from the association, cerebellar, commissural and projection tracts, and 16 superficial tract categories according to the brain lobes.
+
+* Association tracts
+    * arcuate fasciculus (AF) – LR
+    * cingulum bundle (CB) – LR
+    * external capsule (EC) – LR
+    * extreme capsule (EmC) – LR
+    * inferior longitudinal fasciculus (ILF) – LR
+    * inferior occipito-frontal fasciculus (IoFF) – LR
+    * middle longitudinal fasciculus (MdLF) – LR
+    * posterior limb of internal capsule (PLIC) – LR
+    * superior longitudinal fasciculus I (SLF I) – LR
+    * superior longitudinal fasciculus II (SLF II) – LR
+    * superior longitudinal fasciculus II (SLF III) – LR
+    * uncinate fasciculus (UF) – LR
+
+* Cerebellar tracts
+    * cortico-ponto-cerebellar (CPC) – LR
+    * inferior cerebellar peduncle (ICP) – LR
+    * intracerebellar input and Purkinje tract (Intra-CBLM-I&P) – LR 
+    * intracerebellar parallel tract (Intra-CBLM-PaT) – LR
+    * middle cerebellar peduncle (MCP) – C
+
+* Commissural tracts
+    * corpus callosum 1 (CC 1) – C
+    * corpus callosum 2 (CC 2) – C
+    * corpus callosum 3 (CC 3) – C
+    * corpus callosum 4 (CC 4) – C
+    * corpus callosum 5 (CC 5) – C
+    * corpus callosum 6 (CC 6) – C
+    * corpus callosum 7 (CC 7) – C
+
+* Projection tracts
+    * corticospinal tract (CST) – LR
+    * corona-radiata-frontal (CR-F) (excluding the CST) – LR 
+    * corona-radiata-parietal (CR-P) (excluding the CST) – LR 
+    * striato-frontal (SF) – LR
+    * striato-occipital (SO) – LR
+    * striato-parietal (SP) – LR
+    * thalamo-frontal (TF) – LR
+    * thalamo-occipital (TO) – LR
+    * thalamo-parietal (TP) – LR
+
+* Superficial tracts 
+    * superficial-frontal (Sup-F) – LR
+    * superficial-frontal-parietal (Sup-FP) – LR
+    * superficial-occipital (Sup-O) – LR
+    * superficial-occipital-temporal (Sup-OT) – LR
+    * superficial-parietal (Sup-P) – LR
+    * superficial-parietal-occipital (Sup-PO) – LR 
+    * superficial-parietal-temporal (Sup-PT) – LR
+    * superficial-temporal (Sup-T) – LR
 
 ## 3. Visualize the fiber clusters and the annotated anatomical fiber tracts. 
 
