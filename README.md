@@ -39,6 +39,8 @@ Note that Python 2.7.X needs to be installed before running this script.
 
 Two atlases are available to be downloaded (-atlas), including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
 
+These pre-provided atlases can also be downloaded (in case the above script does not work) from: https://github.com/SlicerDMRI/ORG-Atlases/releases
+
 Anatomical tracts annotated in the ORG-800FC-100HCP atlas. Except for the 7 corpus callosum (CC) tracts and the middle cerebellar peduncle (MCP) tract that cross the hemispheres (C), others are hemispheric (LR). Overall, there are 58 deep white matter fiber tracts from the association, cerebellar, commissural and projection tracts, and 16 superficial tract categories according to the brain lobes.
 
 * Association tracts
