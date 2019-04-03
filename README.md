@@ -12,7 +12,7 @@ Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'OR
       in: International Conference on Medical Image Computing and Computer-Assisted Intervention, 2012 (pp. 123-130).
     - O'Donnell, LJ., and Westin, CF. 
       Automatic tractography segmentation using a high-dimensional white matter atlas. 
-      Medical Imaging, IEEE Transactions on  2007 (26.11): 1562-1575.
+      Medical Imaging, IEEE Transactions on 2007 (26.11): 1562-1575.
 
 **For projects using Slicer and SlicerDMRI please also include the following text (or similar) and citations:**
 
@@ -23,7 +23,7 @@ Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'OR
     
     - Isaiah Norton, Walid Ibn Essayed, Fan Zhang, Sonia Pujol, Alex Yarmarkovich, Alexandra J. Golby, Gordon Kindlmann, Demian Wassermann, Raul San Jose Estepar, Yogesh Rathi, Steve Pieper, Ron Kikinis, Hans J. Johnson, Carl-Fredrik Westin and Lauren J. O'Donnell. SlicerDMRI: Open Source Diffusion MRI Software for Brain Cancer Research. Cancer Research 77(21), e101-e103, 2017.
 
-## 1. Download the ORG Atlases manually:
+## 1. Download the ORG Atlases:
 
 * 1.1. Download the Anatomically Curated Atlas including 800 fiber clusters ([ORG-800FC-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP.tar.gz), ~600 MB), and the Anatomical Tract Label for each cluster ([ORG-800FC-100HCP-MRML.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP-MRML.tar.gz), 270 KB).
 
