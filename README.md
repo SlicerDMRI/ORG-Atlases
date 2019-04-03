@@ -25,23 +25,29 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
     - [Isaiah Norton, Walid Ibn Essayed, Fan Zhang, Sonia Pujol, Alex Yarmarkovich, Alexandra J. Golby, Gordon Kindlmann, Demian Wassermann, Raul San Jose Estepar, Yogesh Rathi, Steve Pieper, Ron Kikinis, Hans J. Johnson, Carl-Fredrik Westin and Lauren J. O'Donnell. SlicerDMRI: Open Source Diffusion MRI Software for Brain Cancer Research. Cancer Research 77(21), e101-e103, 2017.](http://cancerres.aacrjournals.org/content/77/21/e101)
 
 
-# Installation
-## 1. Download ORG-Atlases from github. 
+
+Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
+
+## 1. Download the ORG Atlases manually:
+
+1.1. Download the Anatomically Curated Atlas including 800 fiber clusters ([ORG-800FC-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP.tar.gz), ~600 MB), and the Anatomical Tract Label for each cluster ([ORG-800FC-100HCP-MRML.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP-MRML.tar.gz), 270 KB).
+
+1.2. Download the Tractography Registration Atlas ([ORG-RegAtlas-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-RegAtlas-100HCP.tar.gz), ~1.2 GB) that is used to register a new tractography dataset to the atlas space. (This registration atlas is not necessary to be downloaded if one only wants to visualize the atlas.)
+
+1.3. Download the Uncurated Atlas including 2000 fiber clusters ([ORG-RegAtlas-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-RegAtlas-100HCP.tar.gz), ~1.2 GB).
+
+<!-- ## 2. Download ORG-Atlases from github (Unsupported now). 
 
       git clone git@github.com:SlicerDMRI/ORG-Atlases.git
-
-## 2. Download a pre-provided atlas using the provided script ''wm_download_anatomically_curated_atlas.py'', as follows:
 
       cd ORG-Atlases
       python wm_download_anatomically_curated_atlas.py -atlas ORG-800FC-100HCP atlas_output_folder
 
-Note that Python 2.7.X needs to be installed before running this script.
+Note that Python 2.7.X needs to be installed before running this script. --> 
 
-Two atlases are available to be downloaded (-atlas), including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
+## 2. Anatomical tracts annotated in the ORG-800FC-100HCP atlas. 
 
-These pre-provided atlases can also be downloaded (in case the above script does not work) from: https://github.com/SlicerDMRI/ORG-Atlases/releases
-
-Anatomical tracts annotated in the ORG-800FC-100HCP atlas. Except for the 7 corpus callosum (CC) tracts and the middle cerebellar peduncle (MCP) tract that cross the hemispheres (C), others are hemispheric (LR). Overall, there are 58 deep white matter fiber tracts from the association, cerebellar, commissural and projection tracts, and 16 superficial tract categories according to the brain lobes.
+Except for the 7 corpus callosum (CC) tracts and the middle cerebellar peduncle (MCP) tract that cross the hemispheres (C), others are hemispheric (LR). Overall, there are 58 deep white matter fiber tracts from the association, cerebellar, commissural and projection tracts, and 16 superficial tract categories according to the brain lobes.
 
 * Association tracts
     * arcuate fasciculus (AF) – LR
