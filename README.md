@@ -3,8 +3,6 @@ O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
 
 This Github repository provides an anatomically curated white matter atlas to enable consistent white matter tract parcellation across different populations (Zhang, et al, 2018). The  atlas is provided by the O’Donnell Research Group (ORG). For more information, please see the videos, links, and related introductions at http://dmri.slicer.org/atlases in [SlicerDMRI](http://dmri.slicer.org).
 
-Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
-
 **Please cite the following papers for using the atlases:**
 
     - Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O'Donnell, LJ. 
@@ -26,6 +24,8 @@ Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'OR
     - Isaiah Norton, Walid Ibn Essayed, Fan Zhang, Sonia Pujol, Alex Yarmarkovich, Alexandra J. Golby, Gordon Kindlmann, Demian Wassermann, Raul San Jose Estepar, Yogesh Rathi, Steve Pieper, Ron Kikinis, Hans J. Johnson, Carl-Fredrik Westin and Lauren J. O'Donnell. SlicerDMRI: Open Source Diffusion MRI Software for Brain Cancer Research. Cancer Research 77(21), e101-e103, 2017.
 
 ## 1. Download the ORG Atlases:
+
+Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
 
 * 1.1. Download the Anatomically Curated Atlas including 800 fiber clusters ([ORG-800FC-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP.tar.gz), ~600 MB), and the Anatomical Tract Label for each cluster ([ORG-800FC-100HCP-MRML.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP-MRML.tar.gz), 270 KB).
 
