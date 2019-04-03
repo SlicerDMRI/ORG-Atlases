@@ -1,40 +1,35 @@
 # org-atlases
 O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
 
+Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
+
 **Please cite the following papers for using the atlases:**
 
-    Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O'Donnell, LJ. 
-    An anatomically curated fiber clustering white matter atlas for consistent white matter tract parcellation across the lifespan, 
-    NeuroImage, 2018.
-    
-    O'Donnell LJ., Wells III WM., Golby AJ., Westin CF. 
-    Unbiased groupwise registration of white matter tractography, 
-    in: International Conference on Medical Image Computing and Computer-Assisted Intervention 2012 Oct 1 (pp. 123-130). Springer Berlin Heidelberg.
-    
-    O'Donnell, LJ., and Westin, CF. 
-    Automatic tractography segmentation using a high-dimensional white matter atlas. 
-    Medical Imaging, IEEE Transactions on 26.11 (2007): 1562-1575.
+    - Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O'Donnell, LJ. 
+      An anatomically curated fiber clustering white matter atlas for consistent white matter tract parcellation across the lifespan. 
+      NeuroImage, 2018 (179): 429-447
+    - O'Donnell LJ., Wells III WM., Golby AJ., Westin CF. Unbiased groupwise registration of white matter tractography, 
+      in: International Conference on Medical Image Computing and Computer-Assisted Intervention, 2012 (pp. 123-130).
+    - O'Donnell, LJ., and Westin, CF. 
+      Automatic tractography segmentation using a high-dimensional white matter atlas. 
+      Medical Imaging, IEEE Transactions on  2007 (26.11): 1562-1575.
 
 **For projects using Slicer and SlicerDMRI please also include the following text (or similar) and citations:**
 
 * How to cite the [Slicer platform](http://wiki.slicer.org/slicerWiki/index.php/CitingSlicer)
 * An example of how to cite SlicerDMRI (modify the first part of the sentence according to your use case):
 
-    "We performed diffusion MRI tractography and/or analysis and/or visualization in 3D Slicer (www.slicer.org) via the SlicerDMRI project (dmri.slicer.org) (Norton et al. 2017)."
+    "We performed diffusion MRI tractography and/or analysis and/or visualization in 3D Slicer (www.slicer.org) via the SlicerDMRI project (dmri.slicer.org) ([Norton et al. 2017](http://cancerres.aacrjournals.org/content/77/21/e101))."
     
-    - [Isaiah Norton, Walid Ibn Essayed, Fan Zhang, Sonia Pujol, Alex Yarmarkovich, Alexandra J. Golby, Gordon Kindlmann, Demian Wassermann, Raul San Jose Estepar, Yogesh Rathi, Steve Pieper, Ron Kikinis, Hans J. Johnson, Carl-Fredrik Westin and Lauren J. O'Donnell. SlicerDMRI: Open Source Diffusion MRI Software for Brain Cancer Research. Cancer Research 77(21), e101-e103, 2017.](http://cancerres.aacrjournals.org/content/77/21/e101)
-
-
-
-Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
+    - Isaiah Norton, Walid Ibn Essayed, Fan Zhang, Sonia Pujol, Alex Yarmarkovich, Alexandra J. Golby, Gordon Kindlmann, Demian Wassermann, Raul San Jose Estepar, Yogesh Rathi, Steve Pieper, Ron Kikinis, Hans J. Johnson, Carl-Fredrik Westin and Lauren J. O'Donnell. SlicerDMRI: Open Source Diffusion MRI Software for Brain Cancer Research. Cancer Research 77(21), e101-e103, 2017.
 
 ## 1. Download the ORG Atlases manually:
 
-1.1. Download the Anatomically Curated Atlas including 800 fiber clusters ([ORG-800FC-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP.tar.gz), ~600 MB), and the Anatomical Tract Label for each cluster ([ORG-800FC-100HCP-MRML.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP-MRML.tar.gz), 270 KB).
+* 1.1. Download the Anatomically Curated Atlas including 800 fiber clusters ([ORG-800FC-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP.tar.gz), ~600 MB), and the Anatomical Tract Label for each cluster ([ORG-800FC-100HCP-MRML.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-800FC-100HCP-MRML.tar.gz), 270 KB).
 
-1.2. Download the Tractography Registration Atlas ([ORG-RegAtlas-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-RegAtlas-100HCP.tar.gz), ~1.2 GB) that is used to register a new tractography dataset to the atlas space. (This registration atlas is not necessary to be downloaded if one only wants to visualize the atlas.)
+* 1.2. Download the Tractography Registration Atlas ([ORG-RegAtlas-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-RegAtlas-100HCP.tar.gz), ~1.2 GB) that is used to register a new tractography dataset to the atlas space. (This registration atlas is not necessary to be downloaded if one only wants to visualize the atlas.)
 
-1.3. Download the Uncurated Atlas including 2000 fiber clusters ([ORG-RegAtlas-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-RegAtlas-100HCP.tar.gz), ~1.2 GB).
+* 1.3. Download the Uncurated Atlas including 2000 fiber clusters ([ORG-RegAtlas-100HCP.tar.gz](https://github.com/SlicerDMRI/ORG-Atlases/releases/download/v1.0/ORG-RegAtlas-100HCP.tar.gz), ~1.2 GB).
 
 <!-- ## 2. Download ORG-Atlases from github (Unsupported now). 
 
