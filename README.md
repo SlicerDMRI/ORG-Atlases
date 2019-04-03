@@ -1,6 +1,8 @@
 # org-atlases
 O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlases
 
+This Github repository provides an anatomically curated white matter atlas to enable consistent white matter tract parcellation across different populations (Zhang, et al, 2018). The  atlas is provided by the O’Donnell Research Group (ORG). For more information, please see the videos, links, and related introductions at http://dmri.slicer.org/atlases in [SlicerDMRI](http://dmri.slicer.org).
+
 Two atlases are available to be downloaded, including 'ORG-800FC-100HCP' and 'ORG-2000FC-100HCP'. The first one is an anatomically curated atlas including 800 fiber clusters (see blow for a list of annotated tracts in the atlas), and the second one is an uncurated atlas including 2000 fiber clusters.
 
 **Please cite the following papers for using the atlases:**
