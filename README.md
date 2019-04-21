@@ -29,9 +29,9 @@ This Github repository provides an anatomically curated white matter atlas to en
 For anatomical reference, we provide the atlas population mean T1/T2/b0 images. These images are computed by transforming the T1/T2/b0 images of the 100 HCP-atlas subjects (included for the atlas generation) into the atlas space.
 
 - Download the following images: 
-    -[100HCP-population-mean-T1.nii.gz](XX), ~40MB 
-    -[100HCP-population-mean-T2.nii.gz](XX), ~40MB 
-    -[100HCP-population-mean-b0.nii.gz](XX), ~15MB
+    - [100HCP-population-mean-T1.nii.gz](XX), ~40MB 
+    - [100HCP-population-mean-T2.nii.gz](XX), ~40MB 
+    - [100HCP-population-mean-b0.nii.gz](XX), ~15MB
 - Drag and drop one image (or multiple images) onto 3D Slicer for visualization.
 
 ## 2. Download the ORG Atlas for Subject-specific Tractography Parcellation
