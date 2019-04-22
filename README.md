@@ -40,15 +40,9 @@ The ORG atlas needs to be combined with the [WhiteMatterAnalysis (WMA)](https://
 
 ### 2.1 Download the atlas via Python
 
-Currently not available.
-<!-- ## 2. Download ORG-Atlases from github (Unsupported now). 
-
-      git clone git@github.com:SlicerDMRI/ORG-Atlases.git
-
-      cd ORG-Atlases
-      python wm_download_anatomically_curated_atlas.py -atlas ORG-800FC-100HCP atlas_output_folder
-      
-      Note that Python 2.7.X needs to be installed before running this script. --> 
+    git clone git@github.com:SlicerDMRI/ORG-Atlases.git
+    cd ORG-Atlases
+    python wm_download_anatomically_curated_atlas.py -atlas ORG-800FC-100HCP atlas_output_folder
       
 ### 2.2 Download the atlas manually
 
