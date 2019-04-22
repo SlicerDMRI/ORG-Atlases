@@ -119,7 +119,7 @@ elif requested_atlas == 'ORG-2000FC-100HCP':
 if requested_atlas == 'ORG-800FC-100HCP' or requested_atlas == 'ORG-2000FC-100HCP':
     print '<wm_download_org_atlas> Tractography registration atlas.'
     if not os.path.exists(os.path.join(org_atlases_version_folder, 'ORG-RegAtlas-100HCP/registration_atlas.vtk')):
-        # download_file(REG_atlas_url, downloaded_Reg_atlas_file)
+        download_file(REG_atlas_url, downloaded_Reg_atlas_file)
         extract_from_zip(downloaded_Reg_atlas_file, org_atlases_version_folder, remove_after_extraction=True)
     else:
         print '<wm_download_org_atlas> Skip downloading: There is an existing registration atlas at \'ORG-RegAtlas-100HCP/registration_atlas.vtk\' in the output folder.'
@@ -128,7 +128,7 @@ if requested_atlas == 'ORG-800FC-100HCP' or requested_atlas == 'ORG-2000FC-100HC
     print '<wm_download_org_atlas> Fiber clustering atlas.'
     output_atlas_folder = os.path.join(org_atlases_version_folder, requested_atlas)
     if not os.path.exists(output_atlas_folder):
-        # download_file(FC_atlas_url, downloaded_FC_atlas_file)
+        download_file(FC_atlas_url, downloaded_FC_atlas_file)
         extract_from_zip(downloaded_FC_atlas_file, org_atlases_version_folder, remove_after_extraction=True)
     else:
         print '<wm_download_org_atlas> Skip downloading: There is an existing fiber clustering atlas at \''+requested_atlas+'\' in the output folder.'
