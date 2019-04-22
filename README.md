@@ -6,7 +6,7 @@ This Github repository provides an anatomically curated white matter atlas to en
 
 ### 1.1. Visualization of the curated anatomical fiber tracts
 
-- Download a zip file that contains all fiber tracts: [ORG-Tracts-MRB.zip](XX), ~400MB.
+- Download a zip file that contains all fiber tracts: [ORG-Tracts-MRB.zip](https://zenodo.org/record/2648292/files/ORG-Tracts-MRB.zip?download=1), ~400MB.
     - Note: Each tract is stored as an MRB file (see [here](https://www.slicer.org/wiki/Documentation/4.1/SlicerApplication/MainApplicationGUI#Medical_Reality_Bundle_.28.mrb.29_Note) for details of the MRB format in 3D Slicer). In each MRB file, there are multiple fiber clusters belonging to the tract. 
 - Decompress the downloaded zip file.
 - Locate an MRB file in the decompressed folder (e.g., *T_AF.mrb* for the arcuate fasciculus tract).
@@ -17,7 +17,7 @@ This Github repository provides an anatomically curated white matter atlas to en
 
 ### 1.2. Visualization of the whole brain 800-cluster parcellation
 
-- Download a zip file that contains the 800 fiber clusters: [ORG-800FiberClusters.zip](XX), ~500MB.
+- Download a zip file that contains the 800 fiber clusters: [ORG-800FiberClusters.zip](https://zenodo.org/record/2648292/files/ORG-800FiberClusters.zip?download=1), ~500MB.
 - Decompress the downloaded zip file.
 - Locate the *All_clusters.mrml* file in the decompressed folder.
     - Note: This mrml file defines the 800 vtp files in the decompressed folder. Loading the mrml file will load these vtp files onto 3D Slicer.
@@ -29,9 +29,9 @@ This Github repository provides an anatomically curated white matter atlas to en
 For anatomical reference, we provide the atlas population mean T1/T2/b0 images. These images are computed by transforming the T1/T2/b0 images of the 100 HCP-atlas subjects (included for the atlas generation) into the atlas space.
 
 - Download the following images: 
-    - [100HCP-population-mean-T1.nii.gz](XX), ~40MB 
-    - [100HCP-population-mean-T2.nii.gz](XX), ~40MB 
-    - [100HCP-population-mean-b0.nii.gz](XX), ~15MB
+    - [100HCP-population-mean-T1.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-T1.nii.gz?download=1), ~40MB 
+    - [100HCP-population-mean-T2.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-T2.nii.gz?download=1), ~40MB 
+    - [100HCP-population-mean-b0.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-b0.nii.gz?download=1), ~15MB
 - Drag and drop one image (or multiple images) onto 3D Slicer for visualization.
 
 ## 2. Download the ORG Atlas for Subject-specific Tractography Parcellation
@@ -52,8 +52,8 @@ Currently not available.
       
 ### 2.2 Download the atlas manually
 
-- Download a zip file that contains the tractography registration atlas: [ORG-RegAtlas-100HCP.zip](XX), ~1.2GB.
-- Download a zip file that contains the fiber clustering atlas: [ORG-800FC-100HCP.zip](XX), ~600 MB.
+- Download a zip file that contains the tractography registration atlas: [ORG-RegAtlas-100HCP.zip](https://zenodo.org/record/2648292/files/ORG-RegAtlas-100HCP.zip?download=1), ~1.2GB.
+- Download a zip file that contains the fiber clustering atlas: [ORG-800FC-100HCP.zip](https://zenodo.org/record/2648292/files/ORG-800FC-100HCP.zip?download=1), ~600 MB.
 - Decompress the downloaded zip files.
 
 ## How to cite for using the ORG atlas in your project
