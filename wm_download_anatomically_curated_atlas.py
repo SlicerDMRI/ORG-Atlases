@@ -28,7 +28,7 @@ def download_file(url, output_file):
         print("* Downloading: {0}".format(url))
         url_file = urllib2.urlopen(url)
         meta = url_file.info()
-        file_size = int(meta.getheaders("Content-Length")[0])
+        file_size = int(meta.get_all("Content-Length")[0])
         print("File size: {0} MB".format(file_size/1024.0/1024.0))
 
         output = open(output_file, 'wb')
