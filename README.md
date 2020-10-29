@@ -17,7 +17,7 @@ This Github repository provides an anatomically curated white matter atlas to en
 
 ### 1.2. Visualization of the whole brain 800-cluster parcellation
 
-- Download a zip file that contains the 800 fiber clusters: [ORG-800FiberClusters.zip](https://zenodo.org/record/2648292/files/ORG-800FiberClusters.zip?download=1), ~500MB.
+- Download a zip file that contains the 800 fiber clusters: [ORG-800FiberClusters.zip](https://zenodo.org/record/4156927/files/ORG-800FiberClusters.zip?download=1), ~500MB.
 - Decompress the downloaded zip file.
 - Locate the *All_clusters.mrml* file in the decompressed folder.
     - Note: This mrml file defines the 800 vtp files in the decompressed folder. Loading the mrml file will load these vtp files onto 3D Slicer.
@@ -40,9 +40,9 @@ The ORG atlas needs to be combined with the [WhiteMatterAnalysis (WMA)](https://
 
 ### 2.1 Download the atlas via Python
 
-    git clone git@github.com:SlicerDMRI/ORG-Atlases.git
-    cd ORG-Atlases
-    python wm_download_anatomically_curated_atlas.py -atlas ORG-800FC-100HCP atlas_output_folder
+Install [WMA](https://github.com/SlicerDMRI/whitematteranalysis) and run
+
+    wm_download_anatomically_curated_atlas.py -atlas ORG-800FC-100HCP atlas_output_folder
       
 ### 2.2 Download the atlas manually
 
