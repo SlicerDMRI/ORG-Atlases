@@ -10,7 +10,6 @@ Overall, there are 58 deep white matter fiber tracts from the association, cereb
     * inferior longitudinal fasciculus (ILF) – LR
     * inferior occipito-frontal fasciculus (IoFF) – LR
     * middle longitudinal fasciculus (MdLF) – LR
-    * posterior limb of internal capsule (PLIC) – LR
     * superior longitudinal fasciculus I (SLF I) – LR
     * superior longitudinal fasciculus II (SLF II) – LR
     * superior longitudinal fasciculus II (SLF III) – LR
@@ -42,6 +41,7 @@ Overall, there are 58 deep white matter fiber tracts from the association, cereb
     * thalamo-frontal (TF) – LR
     * thalamo-occipital (TO) – LR
     * thalamo-parietal (TP) – LR
+    * posterior limb of internal capsule (PLIC) – LR
 
 * Superficial tracts 
     * superficial-frontal (Sup-F) – LR
