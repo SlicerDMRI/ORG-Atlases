@@ -5,7 +5,6 @@ Overall, there are 58 deep white matter fiber tracts from the association, cereb
 * Association tracts
     * arcuate fasciculus (AF) – LR
     * cingulum bundle (CB) – LR
-    * external capsule (EC) – LR
     * extreme capsule (EmC) – LR
     * inferior longitudinal fasciculus (ILF) – LR
     * inferior occipito-frontal fasciculus (IoFF) – LR
@@ -42,6 +41,9 @@ Overall, there are 58 deep white matter fiber tracts from the association, cereb
     * thalamo-occipital (TO) – LR
     * thalamo-parietal (TP) – LR
     * posterior limb of internal capsule (PLIC) – LR
+
+* Striatal tracts
+    * external capsule (EC) – LR
 
 * Superficial tracts 
     * superficial-frontal (Sup-F) – LR
