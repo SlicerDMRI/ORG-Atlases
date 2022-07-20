@@ -39,8 +39,7 @@ Overall, there are 58 deep white matter fiber tracts from the association, cereb
     * striato-parietal (SP) – LR
     * thalamo-frontal (TF) – LR
     * thalamo-occipital (TO) – LR
-    * thalamo-temporal (
-    ) – LR
+    * thalamo-temporal (TT) – LR
     * thalamo-parietal (TP) – LR
     * posterior limb of internal capsule (PLIC) – LR
 
