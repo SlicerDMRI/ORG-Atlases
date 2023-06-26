@@ -24,14 +24,18 @@ This Github repository provides an anatomically curated white matter atlas to en
 - Drag and drop the selected mrml file onto 3D Slicer for visualization.
     - Note: Use the Models module in 3D Slicer to visualize each individual fiber cluster, as described above.
 
-### 1.3. Population mean T1/T2/b0 images
+### 1.3. Population mean T1/T2/b0 images and FreeSurfer parcellation
 
-For anatomical reference, we provide the atlas population mean T1/T2/b0 images. These images are computed by transforming the T1/T2/b0 images of the 100 HCP-atlas subjects (included for the atlas generation) into the atlas space.
+For anatomical reference, we provide the atlas population MRI mean T1/T2/b0 and FreeSurfer parcellation images. The MRI
+images are computed by transforming the T1/T2/b0 images of the 100 HCP-atlas subjects (included for the atlas
+generation) into the atlas space. The FreeSurfer parcellation is computed using a majority vote strategy out of the
+individual subjects' FreeSurfer parcellations in the atlas space.
 
 - Download the following images: 
     - [100HCP-population-mean-T1.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-T1.nii.gz?download=1), ~40MB 
     - [100HCP-population-mean-T2.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-T2.nii.gz?download=1), ~40MB 
     - [100HCP-population-mean-b0.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-b0.nii.gz?download=1), ~15MB
+    - [100HCP-population-mean-fs_wmparc.nii.gz](https://zenodo.org/record/8082481/files/100HCP-population-mean-wmparc.nii.gz?download=1), ~845kB
 - Drag and drop one image (or multiple images) onto 3D Slicer for visualization.
 
 ## 2. Download the ORG Atlas for Subject-specific Tractography Parcellation
