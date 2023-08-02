@@ -60,7 +60,7 @@ Install [WMA](https://github.com/SlicerDMRI/whitematteranalysis) and run
 
 #### Please include the following text (or similar) and citations for using Slicer and SlicerDMRI
 
-- How to cite the [Slicer platform](http://wiki.slicer.org/slicerWiki/index.php/CitingSlicer)
+- How to cite the [Slicer platform](https://slicer.readthedocs.io/en/latest/user_guide/about.html#how-to-cite)
 - An example of how to cite SlicerDMRI (modify the first part of the sentence according to your use case):
 
     "We performed diffusion MRI tractography and/or analysis and/or visualization in 3D Slicer (https://www.slicer.org/) via the SlicerDMRI project (https://dmri.slicer.org/) ([Norton et al. 2017](http://cancerres.aacrjournals.org/content/77/21/e101)).
