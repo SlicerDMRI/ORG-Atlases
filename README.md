@@ -32,6 +32,7 @@ For anatomical reference, we provide the atlas population mean T1/T2/b0 images. 
     - [100HCP-population-mean-T1.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-T1.nii.gz?download=1), ~40MB 
     - [100HCP-population-mean-T2.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-T2.nii.gz?download=1), ~40MB 
     - [100HCP-population-mean-b0.nii.gz](https://zenodo.org/record/2648292/files/100HCP-population-mean-b0.nii.gz?download=1), ~15MB
+    - [100HCP-population-mean-wmparc.nii.gz](https://zenodo.org/records/8082481/files/100HCP-population-mean-wmparc.nii.gz?download=1), ~1MB
 - Drag and drop one image (or multiple images) onto 3D Slicer for visualization.
 
 ## 2. Download the ORG Atlas for Subject-specific Tractography Parcellation
