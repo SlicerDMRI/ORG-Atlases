@@ -1,6 +1,6 @@
 # O'Donnell Research Group (ORG) Fiber Clustering White Matter Atlas
 
-This Github repository provides an anatomically curated white matter atlas to enable consistent white matter tract parcellation across different populations ([Zhang et al. 2018](https://doi.org/10.1016/j.neuroimage.2018.06.027)). In brief, the atlas contains **an anatomical fiber tract parcellation** into 58 deep white matter tracts including major long range association and projection tracts, commissural tracts, and tracts related to the brainstem and cerebellar connections, plus 198 short and medium range superficial fiber clusters organized into 16 categories according to the brain lobes they connect. In addition, the atlas contains a **whole brain white matter parcellation** of the entire white matter into 800 fiber clusters. For more information, please see the videos, links, and related introductions on the [Atlases](http://dmri.slicer.org/atlases) page in [SlicerDMRI](http://dmri.slicer.org).
+This Github repository provides an anatomically curated white matter atlas to enable consistent white matter tract parcellation across different populations ([Zhang et al. 2018](https://doi.org/10.1016/j.neuroimage.2018.06.027)). In brief, the atlas contains **an anatomical fiber tract parcellation** into 58 deep white matter tracts including major long range association and projection tracts, commissural tracts, and tracts related to the brainstem and cerebellar connections, plus 198 short and medium range superficial fiber clusters organized into 16 categories according to the brain lobes they connect. In addition, the atlas contains a **whole brain white matter parcellation** of the entire white matter into 800 fiber clusters. For more information, please see the videos, links, and related introductions on the [Atlases](https://dmri.slicer.org/atlases) page in [SlicerDMRI](https://dmri.slicer.org).
 
 ## 1. ORG Atlas Visualization
 
@@ -12,7 +12,7 @@ This Github repository provides an anatomically curated white matter atlas to en
 - Locate an MRB file in the decompressed folder (e.g., *T_AF.mrb* for the arcuate fasciculus tract).
     - Note: The list of all anatomical tracts can be found [here](Tracts-in-ORG-800FC-100HCP.md).
 - Drag and drop the selected MRB file onto 3D Slicer for visualization.
-    - Note: SlicerDMRI needs to be installed in 3D Slicer for this visualization (see [here](http://dmri.slicer.org/download/) for installation instructions).
+    - Note: SlicerDMRI needs to be installed in 3D Slicer for this visualization (see [here](https://dmri.slicer.org/download/) for installation instructions).
     - Note: Use the Models module in 3D Slicer to visualize each individual fiber cluster. Click the *Include Fibers* checkbox on the top left of the Models module to show the clusters in the *Scene* panel, and then click the *eye* icon to turn on or off the visibility  of a cluster.
 
 ### 1.2. Visualization of the whole brain 800-cluster parcellation
@@ -61,9 +61,9 @@ Install [WMA](https://github.com/SlicerDMRI/whitematteranalysis) and run
 
 #### Please include the following text (or similar) and citations for using Slicer and SlicerDMRI
 
-- How to cite the [Slicer platform](http://wiki.slicer.org/slicerWiki/index.php/CitingSlicer)
+- How to cite the [Slicer platform](https://slicer.readthedocs.io/en/latest/user_guide/about.html#how-to-cite)
 - An example of how to cite SlicerDMRI (modify the first part of the sentence according to your use case):
 
-    "We performed diffusion MRI tractography and/or analysis and/or visualization in 3D Slicer (www.slicer.org) via the SlicerDMRI project (dmri.slicer.org) ([Norton et al. 2017](http://cancerres.aacrjournals.org/content/77/21/e101)).
+    "We performed diffusion MRI tractography and/or analysis and/or visualization in 3D Slicer (https://www.slicer.org/) via the SlicerDMRI project (https://dmri.slicer.org/) ([Norton et al. 2017](https://aacrjournals.org/cancerres/article/77/21/e101/662618)).
 
     Norton, I., Essayed, WI., Zhang, F., Pujol, S., Yarmarkovich, A., Golby, AJ., Kindlmann, G., Wassermann, D., Estepar, RSJ., Rathi, Y., Pieper, S., Kikinis, R., Johnson, HJ., Westin, C-F., and O'Donnell, LJ. SlicerDMRI: Open Source Diffusion MRI Software for Brain Cancer Research. Cancer Research 77(21), e101-e103, 2017."
