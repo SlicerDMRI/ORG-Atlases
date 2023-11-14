@@ -7,7 +7,7 @@ Overall, there are 58 deep white matter fiber tracts from the association, cereb
     * cingulum bundle (CB) – LR
     * extreme capsule (EmC) – LR
     * inferior longitudinal fasciculus (ILF) – LR
-    * inferior occipito-frontal fasciculus (IoFF) – LR
+    * inferior occipito-frontal fasciculus (IOFF) – LR
     * middle longitudinal fasciculus (MdLF) – LR
     * superior longitudinal fasciculus I (SLF I) – LR
     * superior longitudinal fasciculus II (SLF II) – LR
