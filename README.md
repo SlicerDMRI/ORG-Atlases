@@ -4,6 +4,8 @@ This Github repository provides an anatomically curated white matter atlas to en
 
 ## 1. ORG Atlas Visualization
 
+**Note**: Install the stable release version of [3D Slicer](https://download.slicer.org/) and the [SlicerDMRI](https://dmri.slicer.org/download/) extension to view the following MRB files.
+
 ### 1.1. Visualization of the curated anatomical fiber tracts
 
 - Download a zip file that contains all fiber tracts: [ORG-Tracts-MRB.zip](https://zenodo.org/record/2648292/files/ORG-Tracts-MRB.zip?download=1), ~400MB.
