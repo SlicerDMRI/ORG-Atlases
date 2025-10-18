@@ -4,6 +4,8 @@ This Github repository provides an anatomically curated white matter atlas to en
 
 ## 1. ORG Atlas Visualization
 
+**Note**: Install the stable release version of [3D Slicer](https://download.slicer.org/) and the [SlicerDMRI](https://dmri.slicer.org/download/) extension to view the following MRB files. To enable compatibility with other software, use the MRTrix3 [tckconvert](https://mrtrix.readthedocs.io/en/latest/reference/commands/tckconvert.html#tckconvert) tool to convert the ORG atlas's fiber cluster files from VTK to TCK format.
+
 ### 1.1. Visualization of the curated anatomical fiber tracts
 
 - Download a zip file that contains all fiber tracts: [ORG-Tracts-MRB.zip](https://zenodo.org/record/2648292/files/ORG-Tracts-MRB.zip?download=1), ~400MB.
